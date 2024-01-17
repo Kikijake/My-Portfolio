@@ -3,6 +3,8 @@
 *{
     color: white;
     text-shadow: 0px 0px 6px black;
+    animation-duration: 2s;
+    scroll-behavior: smooth;
 }
 
 .background-img{
@@ -38,14 +40,14 @@
 }
 
 .bio-left ,.bio-left p{
-    color: gray;
-    text-shadow: 0px 0px px white;
+    /* color: gray; */
+    /* text-shadow: 0px 0px px white; */
     text-align: right;
 }
 
-.bio-right,.bio-right p{
+/* .bio-right,.bio-right p{
     color: gray;
-}
+} */
 
 .our-team img{
     object-fit: cover;
@@ -105,11 +107,12 @@
 
 @media screen and (min-width: 991px){
     *{
-        font-size: 13px;
+        font-size: 14px;
     }
     .our-team img{
         width: 100px;
         height: 100px;
         object-fit: cover;
     }
+
 }
