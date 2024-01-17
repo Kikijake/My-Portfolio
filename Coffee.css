@@ -13,7 +13,7 @@ body{
 
 .background-img{
     position: absolute;
-    height: 1800px;
+    height: 1500px;
     overflow: hidden;
 }
 
@@ -95,7 +95,7 @@ body{
 
 @media screen and (max-width: 575px){
     /* .background-img{
-        position: fixed;
+        height: ;
     } */
 }
 
