@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #58FF33;
+}
+
 .background-img{
     position: absolute;
     height: 1800px;
@@ -90,9 +94,9 @@
 }
 
 @media screen and (max-width: 575px){
-    .background-img{
+    /* .background-img{
         position: fixed;
-    }
+    } */
 }
 
 @media screen and (min-width: 400px){
