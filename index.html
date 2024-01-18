@@ -11,15 +11,24 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
 
 </head>
 
 <body>
+   <div class="side-nav-main">
+      <div class="side-nav rounded">
+         <ul class="list-unstyled p-1 h-100 d-flex flex-column justify-content-evenly">
+            <li><a href="index.html" class="px-2 text-fs text-white text-decoration-none">Home</a></li>
+            <li><a href="#About" class="px-2 text-fs text-white text-decoration-none">About</a></li>
+            <li><a href="#Skills" class="px-2 text-fs text-white text-decoration-none">Skills</a></li>
+            <li><a href="index.html" class="px-2 text-fs text-white text-decoration-none">Services</a></li>
+            <li><a href="index.html" class="px-2 text-fs text-white text-decoration-none">Contact Us</a></li>
+         </ul>
+      </div>
+      <div class="side-nav-btn mt-1">
+         <i class="fa-solid fa-square-caret-up"></i>
+      </div>
+   </div>
    <div class=" background-img w-100" style="z-index: -3;">
       <img
          src="https://static.vecteezy.com/system/resources/previews/026/326/775/non_2x/top-view-dark-office-desk-with-laptop-computer-blank-screen-smart-phone-cup-of-coffee-and-pen-copy-space-mock-up-photo.jpg"
@@ -82,7 +91,7 @@
          </div>
       </div>
    </nav>
-   <div class="container-fluid main-content">
+   <div class="container-fluid main-content pt-5">
       <div class="row">
          <div class="col-8 offset-2 ">
             <!-- <div class="row mb-4">
@@ -176,6 +185,7 @@
                            <button class=" btn btn-dark text-white rounded mx-1 my-1">Logo Design</button>
                            <button class=" btn btn-dark text-white rounded mx-1 my-1">Branding</button>
                         </div>
+                        
                      </div>
                   </div>
                   <div class="row mt-3">
@@ -231,10 +241,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
    integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script>
+      $(document).ready(function(){
+         $('.side-nav-btn').click(function(){
+            var sideNavH = $('.side-nav').css('height')
 
+            if(sideNavH == '120px'){
+               $('.side-nav').css({'height':'0px','border-top':'0'})
+               $('.side-nav-btn').css('transform','rotate(0deg)')
+            }else{
+               $('.side-nav').css({'height':'120px','border-top':'white solid 1px'})
+               $('.side-nav-btn').css('transform','rotate(180deg)')
+            }
+
+         }
+         )
+      })
+   </script>
 <script>
    
 </script>
