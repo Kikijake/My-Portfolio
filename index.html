@@ -113,7 +113,7 @@
                   </div>
                   <hr>
                   <div class="row mb-5">
-                     <div id="About" class="col-sm col-md-5 col-lg-5 bio-left">
+                     <div id="About" class="col-sm col-md-5 col-lg-6 bio-left">
                         <div class="btn btn-dark fs-5 fw-bold mb-4">
                            Get To Know Me!
                         </div>
@@ -127,7 +127,7 @@
                            From concept to deployment, I am dedicated to providing a smooth and enjoyable experience for both clients and end-users.
                         </p>
                      </div>
-                     <div id="Skills" class="col offset-1 col-md-6 col-lg-6 bio-right our-team">
+                     <div id="Skills" class="col col-md-6 col-lg-6 bio-right our-team">
                         <div class="btn btn-dark fs-5 fw-bold mb-4">
                            My Skills
                         </div>
@@ -244,6 +244,10 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script>
       $(document).ready(function(){
+         $('.bio-left').css({'opacity':'100%','transform': 'translate(0px,0px)'});
+         $('.bio-left p').css({'opacity':'100%','transform': 'translate(0px,0px)'});
+         $('.bio-right').css({'opacity':'100%','transform': 'translate(0px,0px)'});
+         $('.bio-right p').css({'opacity':'100%','transform': 'translate(0px,0px)'});
          $('.side-nav-btn').click(function(){
             var sideNavH = $('.side-nav').css('height')
 

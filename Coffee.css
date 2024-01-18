@@ -9,6 +9,7 @@
 }
 
 .side-nav-main{
+    z-index: 3;
     position: fixed;
     display:flex;
     flex-direction: column;
@@ -73,11 +74,17 @@ body{
     /* color: gray; */
     /* text-shadow: 0px 0px px white; */
     text-align: right;
+    opacity: 12%;
+    transition: 3s;
+    transform: translate(-100px,0px);
 }
 
-/* .bio-right,.bio-right p{
-    color: gray;
-} */
+.bio-right,.bio-right p{
+    opacity: 12%;
+    transition: 3s;
+    transform: translate(100px,0px);
+    
+}
 
 .our-team img{
     object-fit: cover;
