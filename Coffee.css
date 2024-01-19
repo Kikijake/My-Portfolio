@@ -107,7 +107,7 @@
 .contact-parent{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(68, 97, 97) 90%);
     border-left: 1px solid white;
-    box-shadow: 15px 15px 30px black;
+    box-shadow: 15px 30px 20px black;
 }
 
 .contact div{
