@@ -18,7 +18,7 @@
    <div class="side-nav-main">
       <div class="side-nav rounded">
          <ul class="list-unstyled p-1 h-100 d-flex flex-column justify-content-evenly">
-            <li><a href="index.html" class="px-2 text-fs text-white text-decoration-none">Home</a></li>
+            <li><a href="#home" class="px-2 text-fs text-white text-decoration-none">Home</a></li>
             <li><a href="#About" class="px-2 text-fs text-white text-decoration-none">About</a></li>
             <li><a href="#Skills" class="px-2 text-fs text-white text-decoration-none">Skills</a></li>
             <li><a href="#Projects" class="px-2 text-fs text-white text-decoration-none">Projects</a></li>
@@ -53,7 +53,7 @@
          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQcLfME_UsUaB0X5M16eHUPeGC95JyrzyoB2aNyqFdDaA1azhqIVMt2b1nB0yLTf6PFxc&usqp=CAU"
          class="w-100 object-fit-cover" alt="">
    </div>
-   <nav class="navbar navbar-expand-lg w-75 m-auto">
+   <nav class="navbar navbar-expand-lg w-75 m-auto" id="home">
       <div class="container-fluid">
          <a class="navbar-brand text-white px-3 pt-3" href="#">
             <img class=" nav-logo rounded-circle" src="./image/Leonardo_Diffusion_XL_Make_me_a_simple_Logo_using_letter_Y_for_3.jpg"
@@ -70,7 +70,7 @@
                   style=" box-shadow: 0px 0px 20px black;">
                   <div class="col-5 col-lg col-md col-sm-6 justify-content-evenly mt-1 d-flex flex-wrap"
                      style="text-shadow: 0px 0px 5px black;">
-                     <a href="index.html" class="pe-2 text-fs text-white text-decoration-none">Home</a>
+                     <a href="#home" class="pe-2 text-fs text-white text-decoration-none">Home</a>
                      <a href="#About" class="pe-2 text-fs text-white text-decoration-none">About</a>
                      <a href="#Skills" class="pe-2 text-fs text-white text-decoration-none">Skills</a>
                      <a href="#Projects" class="pe-2 text-fs text-white text-decoration-none">Projects</a>
@@ -191,7 +191,7 @@
                <div class="col ">
                   <div class="row mt-5">
                      <div id="Projects" class="col text-center">
-                        <h5>PROJECTS</h5>
+                        <h3>PROJECTS</h3>
                      </div>
                   </div>
                   <!-- <div class="row mt-3">
@@ -208,18 +208,60 @@
                   <div class="row mt-3">
                      <img
                         src="https://images.pexels.com/photos/1601773/pexels-photo-1601773.jpeg?cs=srgb&dl=pexels-mikechie-esparagoza-1601773.jpg&fm=jpg"
-                        alt="" class="col-sm-6 col-md-6 col-lg-6 my-1 object-fit-contain">
-                     <p class="col-sm-6 col-md-6 col-lg-6 my-1">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ut, molestias quas quae provident modi dicta optio amet harum nihil iste maxime veniam quidem adipisci porro necessitatibus eligendi similique repudiandae.
-                     </p>
+                        alt="" class="col-sm col-md col-lg-6 my-1 object-fit-contain">
+                     <div class="col-sm col-md col-lg-6 my-1 d-flex flex-column justify-content-center">
+                        <div class="  p-2" style=" box-shadow: 0px 5px 20px black;">
+                           <hr>
+                           <h5>Pizza Order System</h5>
+                           <p>
+                              Food ordering app that allows the user to purchase the food.
+                           </p>
+                           <div class="btn btn-secondary mb-2 me-1 " style="background-color: orange;">
+                              <i class="fa-brands fa-html5"></i> HTML
+                           </div>
+                           <div class="btn btn-secondary mb-2 me-1 " style="background-color:#2965f1;">
+                              <i class="fa-brands fa-css3-alt"></i> Css
+                           </div>
+                           <div class="btn btn-secondary mb-2 me-1 " style="background-color: #563d7c;">
+                              <i class="fa-brands fa-css3-alt"></i> Bootstrap
+                           </div>
+                           <div class="btn btn-secondary mb-2 me-1 " style="background-color: #172d45;">
+                              <img style="object-fit: contain;width: 20px;height: 20px;"
+                                 src="./image/free-jquery-3628863-3030003.webp"></img> Jquery
+                           </div>
+                           <div class="btn btn-secondary mb-2 me-1 " style="background-color: #fb503b;">
+                              <i class="fa-brands fa-laravel"></i> Laravel
+                           </div>
+                           <hr>
+                        </div>
+                     </div>
                      
                   </div>
                   <div class="row flex-row-reverse mt-3">
                      <img src="https://i.pinimg.com/originals/6e/4b/2e/6e4b2e5e016ee15a405be4e09decfdc9.png" alt=""
-                        class="col-sm-6 col-md-6 col-lg-6 my-1 object-fit-contain">
-                     <p class="col-sm-6 col-md-6 col-lg-6 my-1">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ut, molestias quas quae provident modi dicta optio amet harum nihil iste maxime veniam quidem adipisci porro necessitatibus eligendi similique repudiandae.
-                     </p>
+                        class="col-sm col-md col-lg-6 my-1 object-fit-contain">
+                     <div class="col-sm col-md col-lg-6 my-1 d-flex flex-column justify-content-center" style="text-align: right;">
+                        <div class="   p-2" style=" box-shadow: 0px 5px 20px black;">
+                           <hr>
+                           <h5>Kiki's Pet Store</h5>
+                           <p>Website for pet's food, pet clinic, decoraion, and vlogs</p>
+                           <div>
+                              <div class="btn btn-secondary mb-2 me-1 " style="background-color: orange;">
+                                 <i class="fa-brands fa-html5"></i> HTML
+                              </div>
+                              <div class="btn btn-secondary mb-2 me-1 " style="background-color:#2965f1;">
+                                 <i class="fa-brands fa-css3-alt"></i> Css
+                              </div>
+                              <div class="btn btn-secondary mb-2 me-1 " style="background-color: #563d7c;">
+                                 <i class="fa-brands fa-css3-alt"></i> Bootstrap
+                              </div>
+                              <div class="btn btn-secondary mb-2 me-1 " style="background-color: #fb503b;">
+                                 <i class="fa-brands fa-laravel"></i> Laravel
+                              </div>
+                              <hr>
+                           </div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -308,7 +350,7 @@
             $('.side-nav-btn').css('transform', 'rotate(0deg)')
          } else {
             $('.side-nav').css({ 'height': '120px', 'border-top': 'white solid 1px' })
-            $('.side-nav-btn').css('transform', 'rotate(180deg)')
+            $('.side-nav-btn').css('transform', 'rotate(-180deg)')
          }
 
       }

@@ -36,7 +36,7 @@
 
 .background-img{
     position: absolute;
-    height: 1800px;
+    /* height: 1800px; */
     overflow: hidden;
 }
 
@@ -155,6 +155,13 @@
     }
 }
 
+@media screen and (min-width: 575px){
+    .background-img{
+        /* position: fixed; */
+        height: 2300px;
+    }
+}
+
 @media screen and (min-width: 400px){
     *{
         font-size: 13px;
@@ -169,6 +176,11 @@
     *{
         font-size: 14px;
     }
+
+    .background-img{
+        height: 1800px;
+    }
+
     .our-team img{
         width: 100px;
         height: 100px;
